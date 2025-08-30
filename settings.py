@@ -6,6 +6,11 @@ SESSION_CONFIGS = [
     #     app_sequence=['public_goods'],
     #     num_demo_participants=3,
     # ),
+    dict(
+        name = 'prempexp',
+        app_sequence=['prempexp'],
+        num_demo_participants=4,
+    ),
 ]
 
 # if you set a property in SESSION_CONFIG_DEFAULTS, it will be inherited by all configs
